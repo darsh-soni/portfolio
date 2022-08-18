@@ -12,7 +12,7 @@ import Landing from './components/Landing'
 const App = () => {
 
     return (
-        <body className='h-screen bg-charcoal text-yellow font-poppins'>
+        <div className='h-screen bg-charcoal text-yellow font-poppins'>
             <div className='max-h-screen overflow-y-scroll overflow-hidden snap snap-y snap-mandatory scroll-smooth'>
                 <div className='w-full h-screen snap-start'>
                     <Landing />
@@ -21,7 +21,7 @@ const App = () => {
 
 
             </div>
-        </body>
+        </div>
     )
 }
 
