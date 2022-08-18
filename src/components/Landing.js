@@ -58,10 +58,7 @@ const Landing = () => {
                     </div>
 
                 </div>
-                <div className='w-full h-16  fixed left-0 bottom-32 flex justify-center items-center text-sm'>
-                    Swipe or Press the Down Arrow key {''} <FaRegCaretSquareDown className='ml-2' />
 
-                </div>
             </div>
         </div>
 
