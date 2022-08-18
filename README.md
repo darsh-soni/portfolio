@@ -1,6 +1,6 @@
 # This project is hosted at
 
-https://darshsoni28.github.io/portfolio/
+https://62fe3cb57fe8f72ddc64d281--darsh-soni-portfolio.netlify.app/
 
 # Getting Started with Create React App
 
