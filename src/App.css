@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 2s ease-in forwards;
+}
+
+@layer utilities {
+    .snap {
+        scroll-snap-type: var(--scroll-snap-direction) var(--scroll-snap-constraint);
+    }
+
+
+
+    .snap-y {
+        --scroll-snap-direction: y;
+    }
+
+    .snap-mandatory {
+        --scroll-snap-constraint: mandatory;
+    }
+
+    .snap-start {
+        scroll-snap-align: start;
+    }
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'), url(../src//res//fonts/Gilroy-FREE/Gilroy-ExtraBold.otf) format('otf');
+}
